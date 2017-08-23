@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php
+  require_once('head.html');
+ ?>
+<body>
+  <div class="center-xs">
+    <header>
+            <?php
+              require_once('nav.html');
+             ?>
+      <div class="row middle-xs">
+        <div class="hero-text-box col-xs">
+            <h1>Potencia tu tienda online con Inteligencia Artificial.</h1>
+            <p>Brinda atención personalizada las 24 hs del día e incrementa tus ventas a través del primer <br>
+            y único chatbot pre-entrenado para tiendas online.</p>
+            <a class="btn btn-full js--scroll-to-plans" href="planes.php">Probar Gratis</a>
+        </div>
+      </div>
+    </header>
+  <main>
+    <section class="section-features js--section-features" id="features">
+
+        <div class="row middle-xs center-xs js--wp-1">
+            <div class="col-xs-12 col-sm-4 box">
+                <i class="fa fa-comments-o fa-5x" aria-hidden="true"></i>
+                <!-- <img src="resources/img/Assets-04.png" alt="Atencion 24/7"> -->
+                <h3>Mejora la atención</h3>
+            </div>
+            <div class="col-xs-12 col-sm-4 box">
+                <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
+                <!-- <img src="resources/img/Assets-05.png" alt="Productividad"> -->
+                <h3>Incrementa la productividad</h3>
+            </div>
+            <div class="col-xs-12 col-sm-4 box">
+                <i class="fa fa-cart-plus fa-5x" aria-hidden="true"></i>
+                <!-- <img src="resources/img/Assets-06.png" alt="Ventas"> -->
+                <h3>Incrementa las ventas</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-steps" id="works">
+        <div class="row middle-xs center-xs">
+          <div class="col-xs-10 col-sm-8">
+            <h4>
+              Deja que los chatbots se ocupen de las preguntas frecuentes mientras que los humanos crean valor al enfocarse en casos únicos.
+            </h4>
+          </div>
+        </div>
+        <div class="row middle-xs center-xs">
+
+            <div class="col-xs-10 col-sm-3 col-lg-2 steps-box">
+              <div class="works-step clearfix">
+                <i class="fa fa-clock-o fa-3x"></i>
+                  <h3>SIEMPRE DISPONIBLE</h3>
+                  <p>Día o noche, llueva o truene, los chatbots atienden 24/7.</p>
+              </div>
+              <div class="works-step clearfix">
+                <i class="fa fa-rocket fa-3x"></i>
+                  <h3>ESCALABLE</h3>
+                  <p>Cientos de clientes o millones, los chatbots escalan con tu negocio.</p>
+              </div>
+            </div>
+
+            <div class="col-xs-10 col-sm-4 steps-box">
+                <img src="resources/img/app-iPhone.png" alt="Nuestro app en iPhone" class="app-screen js--wp-2">
+            </div>
+
+            <div class="col-xs-10 col-sm-3 col-lg-2 steps-box">
+                <div class="works-step clearfix">
+                  <i class="fa fa-tachometer fa-3x"></i>
+                    <h3>INMEDIATO</h3>
+                    <p>Las expectativas del cliente son cada vez más altas, no hagas esperar a los tuyos.</p>
+                </div>
+                <div class="works-step clearfix">
+                  <i class="fa fa-commenting fa-3x"></i>
+                    <h3>PERSONALIZADO</h3>
+                    <p>Los chatbots responden de manera personalizada y específica a cada cliente.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section-extras">
+        <div class="row middle-xs center-xs">
+            <h2>Sincroniza tu Tienda</h2>
+        </div>
+        <div class="row js--wp-3">
+            <div class="col-xs-12 col-sm-6 col-md-3 box">
+                <img src="resources/img/Logo-Ecom-1.png" alt="Magneto">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 box">
+                <img src="resources/img/Logo-Ecom-2.png" alt="VTEX">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 box">
+                <img src="resources/img/Logo-Ecom-3.png" alt="Mercado Shops">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 box">
+                <img src="resources/img/Logo-Ecom-4.png" alt="TiendaNube">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-testimonials">
+        <div class="row middle-xs center-xs">
+            <div class="col-xs-10 col-sm-6">
+                <h3>PANEL DE ESTADÍSTICAS</h3>
+                <ul class="estadisticas">
+                  <li><i class="fa fa-angle-right"></i>Valiosos insights sobre tu tienda online</li>
+                  <li><i class="fa fa-angle-right"></i>Tópicos y conversaciones más frecuentes</li>
+                  <li><i class="fa fa-angle-right"></i>Análisis de sentimiento</li>
+                  <li><i class="fa fa-angle-right"></i>Indicadores clave para tu negocio</li>
+                </ul>
+            </div>
+            <div class="col-xs-10 col-sm-4 box">
+                <img src="resources/img/Bot-BackOffice.png" alt="Backoffice de Snappy Bot">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-extras">
+        <div class="row middle-xs center-xs box">
+          <div class="col-xs-10">
+            <h2> <i class="fa fa-cogs fa-3x"></i> FÁCIL DE INSTALAR</h2>
+          </div>
+          <div class="col-xs-10">
+            <p>Configurá tu chatbot en solo unos minutos, sin conocimientos técnicos.</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="section-testimonials">
+
+        <div class="row middle-xs center-xs">
+            <div class="col-xs-10 col-sm-3">
+              <cite><img src="resources/img/Assets-01.png"></cite>
+                <p>
+                  “Descubrimos que había muchísimos clientes que no estaba siendo atendidos. Ahora atendemos 24/7”.
+                </p>
+                <cite>Agustina de Tykio Moda.</cite>
+            </div>
+            <div class="col-xs-10 col-sm-3">
+              <cite><img src="resources/img/Assets-02.png"></cite>
+                <p>
+                “Snappy Bots resultó ser fundamental para el proceso de compra de nuestros clientes. Resuelve las consultas frecuentes de manera automática”.
+                </p>
+                <cite>Alejandro Yñigo de La Argentina.</cite>
+            </div>
+            <div class="col-xs-10 col-sm-3">
+              <cite><img src="resources/img/Assets-03.png"></cite>
+                <p>
+                “Gracias a Snappy Bots podemos entender qué es lo que están preguntando nuestros clientes”.
+                </p>
+                <cite>Silvia de Ambar Accesorios .</cite>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <?php
+    require_once('footer.html');
+    require_once('scripts.html');
+   ?>
+
+  </div>
+</body>
+
+</html>
