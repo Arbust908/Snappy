@@ -88,23 +88,23 @@
             <h2>Sincroniza tu Tienda</h2>
         </div>
         <div class="row js--wp-3">
-            <div class="col-xs-12 col-sm-6 col-md-3 box">
+            <div class="col-xs-6 col-sm-6 col-md-3 box">
                 <img src="resources/img/Logo-Ecom-1.png" alt="Magneto">
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 box">
+            <div class="col-xs-6 col-sm-6 col-md-3 box">
                 <img src="resources/img/Logo-Ecom-2.png" alt="VTEX">
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 box">
+            <div class="col-xs-6 col-sm-6 col-md-3 box">
                 <img src="resources/img/Logo-Ecom-3.png" alt="Mercado Shops">
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 box">
+            <div class="col-xs-6 col-sm-6 col-md-3 box">
                 <img src="resources/img/Logo-Ecom-4.png" alt="TiendaNube">
             </div>
         </div>
 
     </section>
 
-    <section class="section-testimonials">
+    <section class="section-commerce">
         <div class="row middle-xs center-xs">
             <div class="col-xs-10 col-sm-6">
                 <h3>PANEL DE ESTADÍSTICAS</h3>
@@ -115,8 +115,8 @@
                   <li><i class="fa fa-angle-right"></i>Indicadores clave para tu negocio</li>
                 </ul>
             </div>
-            <div class="col-xs-10 col-sm-4 box">
-                <img src="resources/img/Bot-BackOffice.png" alt="Backoffice de Snappy Bot">
+            <div class="col-xs-10 col-sm-6 box">
+                <img src="resources/img/Bot-BackOffice.png" alt="Backoffice de Snappy Bot" class="backoff">
             </div>
         </div>
     </section>
@@ -134,7 +134,7 @@
 
     <section class="section-testimonials">
 
-        <div class="row middle-xs center-xs">
+        <div class="row top-xs center-xs">
             <div class="col-xs-10 col-sm-3">
               <cite><img src="resources/img/Assets-01.png"></cite>
                 <p>

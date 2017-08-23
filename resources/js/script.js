@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    
-    
+
+
     /* For the sticky navigation */
     $('.js--section-features').waypoint(function(direction) {
         if (direction == "down") {
@@ -11,18 +11,18 @@ $(document).ready(function() {
     }, {
       offset: '60px;'
     });
-    
-    
+
+
     /* Scroll on buttons */
     $('.js--scroll-to-plans').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
     });
-    
+
     $('.js--scroll-to-start').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
     });
-    
-    
+
+
     /* Navigation scroll */
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
@@ -38,47 +38,69 @@ $(document).ready(function() {
         }
       });
     });
-    
-    
+
+
     /* Animations on scroll */
     $('.js--wp-1').waypoint(function(direction) {
         $('.js--wp-1').addClass('animated fadeIn');
     }, {
         offset: '50%'
     });
-    
+
     $('.js--wp-2').waypoint(function(direction) {
         $('.js--wp-2').addClass('animated fadeInUp');
     }, {
         offset: '50%'
     });
-    
+
     $('.js--wp-3').waypoint(function(direction) {
         $('.js--wp-3').addClass('animated fadeIn');
     }, {
         offset: '50%'
     });
-    
+
     $('.js--wp-4').waypoint(function(direction) {
         $('.js--wp-4').addClass('animated pulse');
     }, {
         offset: '50%'
     });
-    
-    
+
+
     /* Mobile navigation */
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
+        var mob = $('.mob-nav');
         var icon = $('.js--nav-icon i');
-        
-        nav.slideToggle(200);
-        
-        if (icon.hasClass('ion-navicon-round')) {
-            icon.addClass('ion-close-round');
-            icon.removeClass('ion-navicon-round');
+
+        // nav.slideToggle(1000);
+
+        if (icon.hasClass('fa-bars')) {
+            mob.removeClass('hide')
+            icon.addClass('fa-times');
+            icon.removeClass('fa-bars');
         } else {
-            icon.addClass('ion-navicon-round');
-            icon.removeClass('ion-close-round');
-        }        
+            icon.addClass('fa-bars');
+            mob.addClass('hide')
+            icon.removeClass('fa-times');
+        }
     });
+
+
+    // $( ".cross" ).hide();
+    // $( ".menu" ).hide();
+    // $( ".hamburger" ).click(function() {
+    //   $( ".menu" ).slideToggle( "slow", function() {
+    //     $( ".hamburger" ).hide();
+    //     $( ".cross" ).show();
+    //   });
+    // });
+    //
+    // $( ".cross" ).click(function() {
+    //   $( ".menu" ).slideToggle( "slow", function() {
+    //     $( ".cross" ).hide();
+    //     $( ".hamburger" ).show();
+    //   });
+    // });
+
+
 });

@@ -5,16 +5,19 @@
  ?>
 <body>
   <div class="center-xs">
-    <header>
+    <header class="special-box">
+
       <?php
-        require_once('nav_2.html');
+        require_once('nav.html');
        ?>
+
        <section class="section-plans js--section-plans" id="plans">
            <div class="row middle-xs center-xs">
                <h2>Planes flexibles</h2>
            </div>
-           <div class="row middle-xs center-xs">
-                   <div class="col-xs-10 col-sm-3">
+           <div class="row top-xs center-xs">
+
+                 <div class="col-xs-10 col-sm-3">
                    <div class="plan-box">
                        <div>
                            <h3>Básico</h3>
@@ -35,10 +38,11 @@
                </div>
 
                <div class="col-xs-10 col-sm-3">
-                   <div class="plan-box js--wp-4">
+                   <div class="plan-box">
+                     <div class="destacado">Más Elegido</div>
                        <div>
-                           <h3>Geek</h3>
-                           <p class="plan-price-meal">Para tiendas grandes</p>
+                           <h3>Pro</h3>
+                           <p class="plan-price-meal">Para tiendas medianas</p>
                            <p class="plan-price">$5.322 <span>/ mes</span></p>
                        </div>
                        <div>
@@ -75,10 +79,10 @@
                </div>
            </div>
        </section>
+
     </header>
-  <main>
 
-
+    <main>
 
 </main>
 
@@ -87,7 +91,7 @@
   require_once('scripts.html');
  ?>
 
-</div>
+  </div>
 </body>
 
 </html>

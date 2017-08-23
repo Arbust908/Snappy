@@ -5,7 +5,7 @@ Second color: color: #2980b9
 
 
 /* ----------------------------------------------- */
-/* BASIC SETUP */
+/* Basico */
 /* ----------------------------------------------- */
 
 * {
@@ -87,7 +87,7 @@ h3 {
     line-height: 145%;
 }
 
-/* ----- LINKS ----- */
+/* ----- Links ----- */
 
 a:link,
 a:visited {
@@ -104,7 +104,25 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
-/* ----- BUTTONS ----- */
+.logo:link,
+.logo:visited,
+.logo-black:link,
+.logo-black:visited {
+  color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  padding-bottom: 0;
+}
+
+.logo:hover,
+.logo:active,
+.logo-black:hover,
+.logo-black:active {
+  color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  padding-bottom: 0;
+}
+
+/* ----- Botones ----- */
 .btn {
   text-transform: uppercase;
 }
@@ -132,7 +150,6 @@ input[type=submit] {
     background-color: #3498db;
     border: 1px solid #3498db;
     color: #fff;
-    /*margin-right: 15px;*/
 }
 
 .btn-ghost:link,
@@ -173,6 +190,15 @@ header {
     background-attachment: fixed;
 }
 
+.special-box{
+      background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      background-attachment: fixed;
+}
+
 .hero-text-box {
     position: absolute;
     width: 1140px;
@@ -193,7 +219,6 @@ header {
 .logo-black {
     display: none;
     height: 5vh;
-    width: auto;;
     margin: 5px 0;
 }
 
@@ -246,6 +271,27 @@ header {
     color: #fff;
 }
 
+.mob-nav{
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  position: relative;
+  z-index: 9999;
+}
+
+.mob-nav ul{
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+.mob-nav li{
+  padding-bottom: 20px;
+}
+
+.mob-nav li:last-child{
+  padding-bottom: 0px;
+}
 
 /* Sticky navi */
 .sticky {
@@ -290,8 +336,12 @@ header {
   padding: 0px;
 }
 
+.hide {
+  display: none;
+}
+
 /* ----------------------------------------------- */
-/* FEATURES */
+/* Features */
 /* ----------------------------------------------- */
 
 .section-features {
@@ -357,7 +407,32 @@ header {
 }
 
 /* ----------------------------------------------- */
-/* TESTIMONIALS */
+/* Testimoniales */
+/* ----------------------------------------------- */
+
+.section-commerce {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.section-commerce ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.section-commerce .fa-angle-right{
+  padding-right: 5px;
+  color: #bdc3c7;
+}
+.section-commerce .backoff {
+  width: 90%;
+}
+
+/* ----------------------------------------------- */
+/* Testimoniales */
 /* ----------------------------------------------- */
 
 .section-testimonials {
@@ -367,27 +442,6 @@ header {
     color: #fff;
     background-attachment: fixed;
 }
-
-.section-testimonials ul {
-  /*text-align: left;*/
-  list-style: none;
-  padding: 0px;
-}
-
-.section-testimonials .fa-angle-right{
-  padding-right: 5px;
-  color: #bdc3c7;
-}
-/*.estadisticas li:before {
-  content: '\f005';
-  font-family: 'FontAwesome';
-  float: left;
-  margin-left: -1.5em;
-  color: #0074D9;
-}*/
-
-
-
 
 blockquote {
     padding: 2%;
@@ -411,11 +465,14 @@ cite img {
 
 
 /* ----------------------------------------------- */
-/* SIGN UP */
+/* Sign Up */
 /* ----------------------------------------------- */
+.nav-special{
+  color: #95a5a6;
+}
 
-.section-plans {
-    /*background-color: #f4f4f4;*/
+.section-plans h2{
+  color: #fff;
 }
 
 .plan-box {
@@ -423,7 +480,12 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
-    box-shadow: 0 2px 2px #efefef;
+    /*box-shadow: 0 2px 2px #efefef;*/
+    margin: 30px 0;
+}
+
+.plan-box ul{
+  padding: 0;
 }
 
 .plan-box div {
@@ -432,7 +494,7 @@ cite img {
 }
 
 .plan-box div:first-child {
-    background-color: #fcfcfc;
+    /*background-color: #fcfcfc;*/
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -442,14 +504,20 @@ cite img {
     border: 0;
 }
 
+.destacado{
+  position: relative;
+  background-color: #f39c12;
+  width: 100%;
+  top: -10px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 .plan-price {
-    font-size: 300%;
+    font-size: 260%;
     margin-bottom: 10px;
-    font-weight: 100;fa-facebook
-fa-twitter
-fa-instagram
-fa-whatsapp
+    font-weight: 100;
     color: #3498db;
 }
 
@@ -472,21 +540,39 @@ fa-whatsapp
 
 
 /* ----------------------------------------------- */
-/* FORM */
+/* Formulario */
 /* ----------------------------------------------- */
+.section-form{
+
+}
+
+.section-form h2{
+  color: #fff;
+}
 
 .contact-form {
-    width: 60%;
-    margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.contact-form div {
+  padding: 6px;
+}
+
+.contact-form label {
+  padding-bottom: 4px;
 }
 
 input[type=text],
 input[type=email],
+input[type=password],
 select,
 textarea {
     width: 100%;
     padding: 7px;
-    border-radius: 3px;
+    border-radius: 6px;
     border: 1px solid #ccc;
 }
 
@@ -502,7 +588,7 @@ input[type=checkbox] {
 
 
 /* ----------------------------------------------- */
-/* FOOTER */
+/* Pie */
 /* ----------------------------------------------- */
 
 footer {

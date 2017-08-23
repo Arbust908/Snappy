@@ -100,8 +100,8 @@
 
 
 
-    h1 { font-size: 180%; }
-    h2 { font-size: 150%; }
+    h1 { font-size: 150%; }
+    h2 { font-size: 130%; }
 
 
     .steps-box { text-align: center; }
@@ -131,12 +131,17 @@
       max-height: 8vh;
     }
 
+    
+
 }
 
 
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+  h1 { font-size: 130%; }
+  h2 { font-size: 110%; }
+
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
 
