@@ -176,6 +176,32 @@ input[type=submit]:active {
     color: #fff;
 }
 
+.btn-free,
+.btn-free:link,
+.btn-free:visited{
+  border-radius: 200px;
+  padding: 10px 30px;
+  background-color: #2ecc71;
+  border: 1px solid #2ecc71;
+  color: #fff;
+}
+
+.btn-free:hover,
+.btn-free:active {
+    border: 1px solid #27ae60;
+    background-color: #27ae60;
+}
+
+.btn-big,
+.btn-big:link,
+.btn-big:active,
+.btn-big:hover,
+.btn-big:visited {
+  padding: 15px 40px;
+  font-size: 1.5em;
+  border-radius: 150px;
+}
+
 
 /* ----------------------------------------------- */
 /* HEADER */
@@ -191,8 +217,8 @@ header {
 }
 
 .special-box{
-      background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+      background-image: -webkit-linear-gradient(rgba(149, 165, 166,1.0), rgba(149, 165, 166,1.0)), url(img/hero.jpg);
+      background-image: linear-gradient(rgba(149, 165, 166,1.0), rgba(149, 165, 166,1.0)), url(img/hero.jpg);
       background-size: cover;
       background-position: center;
       height: 100%;
@@ -212,14 +238,13 @@ header {
 
 .logo {
     height: 8vh;
-    width: auto;
     margin-top: 20px;
 }
 
 .logo-black {
     display: none;
-    height: 5vh;
-    margin: 5px 0;
+    height: 8vh;
+    margin: 20px;
 }
 
 /* Main navi */
@@ -369,6 +394,10 @@ header {
     margin-top: 30px;
 }
 
+.steps-box-bis{
+    margin-top: 54px;
+}
+
 .steps-box:first-child {
     text-align: right;
 }
@@ -411,8 +440,8 @@ header {
 /* ----------------------------------------------- */
 
 .section-commerce {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/back-customers.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -476,6 +505,7 @@ cite img {
 }
 
 .plan-box {
+  position: relative;
     background-color: #fff;
     border-radius: 5px;
     width: 90%;
@@ -505,10 +535,10 @@ cite img {
 }
 
 .destacado{
-  position: relative;
+  position: absolute;
   background-color: #f39c12;
   width: 100%;
-  top: -10px;
+  top: -25px;
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;

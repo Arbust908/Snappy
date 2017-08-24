@@ -14,7 +14,7 @@
             <h1>Potencia tu tienda online con Inteligencia Artificial.</h1>
             <p>Brinda atención personalizada las 24 hs del día e incrementa tus ventas a través del primer <br>
             y único chatbot pre-entrenado para tiendas online.</p>
-            <a class="btn btn-full js--scroll-to-plans" href="planes.php">Probar Gratis</a>
+            <a class="btn btn-full btn-big" href="planes.php">Probar Gratis</a>
         </div>
       </div>
     </header>
@@ -67,7 +67,7 @@
                 <img src="resources/img/app-iPhone.png" alt="Nuestro app en iPhone" class="app-screen js--wp-2">
             </div>
 
-            <div class="col-xs-10 col-sm-3 col-lg-2 steps-box">
+            <div class="col-xs-10 col-sm-3 col-lg-2 steps-box steps-box-bis">
                 <div class="works-step clearfix">
                   <i class="fa fa-tachometer fa-3x"></i>
                     <h3>INMEDIATO</h3>
@@ -127,7 +127,7 @@
             <h2> <i class="fa fa-cogs fa-3x"></i> FÁCIL DE INSTALAR</h2>
           </div>
           <div class="col-xs-10">
-            <p>Configurá tu chatbot en solo unos minutos, sin conocimientos técnicos.</p>
+            <p>Configura tu chatbot en solo unos minutos, sin conocimientos técnicos.</p>
           </div>
         </div>
     </section>

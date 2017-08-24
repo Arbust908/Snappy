@@ -17,18 +17,19 @@
            </div>
            <div class="row top-xs center-xs">
 
-                 <div class="col-xs-10 col-sm-3">
+                 <div class="col-xs-10 col-sm-8 col-md-6 col-lg-3">
                    <div class="plan-box">
                        <div>
                            <h3>Básico</h3>
                            <p class="plan-price-meal">Para tiendas pequeñas</p>
                            <p class="plan-price">$516 <span>/ mes</span></p>
+                           <b>150 Conversaciones</b>
                        </div>
                        <div>
                            <ul>
-                             <li><b>150 Contactos</b></li>
+                             <li>Si necesitas mas conversaciones:</li>
                              <li>+$712/mes por 100 extra </li>
-                             <li></li>
+                             <li style="color:#fff;">-</li>
                            </ul>
                        </div>
                        <div>
@@ -37,19 +38,20 @@
                    </div>
                </div>
 
-               <div class="col-xs-10 col-sm-3">
+               <div class="col-xs-10 col-sm-8 col-md-6 col-lg-3">
                    <div class="plan-box">
                      <div class="destacado">Más Elegido</div>
                        <div>
                            <h3>Pro</h3>
                            <p class="plan-price-meal">Para tiendas medianas</p>
                            <p class="plan-price">$5.322 <span>/ mes</span></p>
+                           <b>800 Conversaciones</b>
                        </div>
                        <div>
                            <ul>
-                             <li><b>800 Contactos</b></li>
+                             <li>Si necesitas mas conversaciones:</li>
                              <li>+$534/mes por 100 extra </li>
-                             <li></li>
+                             <li style="color:#fff;">-</li>
                            </ul>
                        </div>
                        <div>
@@ -58,18 +60,40 @@
                    </div>
                </div>
 
-               <div class="col-xs-10 col-sm-3">
+               <div class="col-xs-10 col-sm-8 col-md-6 col-lg-3">
+                   <div class="plan-box">
+                       <div>
+                           <h3>Prueba</h3>
+                           <p class="plan-price-meal" style="color:#fff;">Para todos</p>
+                           <p class="plan-price">Gratis</p>
+                           <b style="color:#fff;">150 Conversaciones</b>
+                       </div>
+                       <div>
+                           <ul>
+                             <li>Prueba GRATIS durante 30 días tu agente virtual</li>
+                             <li style="color:#fff;">-</li>
+                             <li style="color:#fff;">-</li>
+                           </ul>
+                       </div>
+                       <div>
+                           <a href="#" class="btn btn-free">Probar</a>
+                       </div>
+                   </div>
+               </div>
+
+               <div class="col-xs-10 col-sm-8 col-md-6 col-lg-3">
                    <div class="plan-box">
                        <div>
                            <h3>Enterprise</h3>
                            <p class="plan-price-meal">Para tiendas grandes</p>
                            <p class="plan-price">$8.882 <span>/ mes</span></p>
+                           <b>2.000 Conversaciones</b>
                        </div>
                        <div>
                            <ul>
-                               <li><b>2.000 Contactos</b></li>
-                               <li>+$445/mes por 100 extra </li>
-                               <li><a href="#">¿Más de 6.000 contactos?</a></li>
+                              <li>Si necesitas mas conversaciones:</li>
+                              <li>+$445/mes por 100 extra </li>
+                              <li><a href="#">¿Más de 6.000 contactos?</a></li>
                            </ul>
                        </div>
                        <div>

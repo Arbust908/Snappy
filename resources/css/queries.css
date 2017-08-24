@@ -114,6 +114,10 @@
         margin-top: 0px;
     }
 
+    .steps-box-bis{
+        margin-top: 40px;
+    }
+
     .works-step div {
         height: 40px;
         width: 40px;
@@ -131,7 +135,7 @@
       max-height: 8vh;
     }
 
-    
+
 
 }
 
