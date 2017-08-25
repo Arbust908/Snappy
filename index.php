@@ -11,7 +11,7 @@
              ?>
       <div class="row middle-xs">
         <div class="hero-text-box col-xs">
-            <h1>Potencia tu tienda online con Inteligencia Artificial.</h1>
+            <h1>Potencia tu tienda online con Inteligencia Artificial</h1>
             <p>Brinda atención personalizada las 24 hs del día e incrementa tus ventas a través del primer <br>
             y único chatbot pre-entrenado para tiendas online.</p>
             <a class="btn btn-full btn-big" href="planes.php">Probar Gratis</a>
