@@ -50,15 +50,15 @@
         </div>
         <div class="row middle-xs center-xs">
 
-            <div class="col-xs-10 col-sm-3 col-lg-2 steps-box">
+            <div class="col-xs-10 col-sm-4 col-lg-3 steps-box">
               <div class="works-step clearfix">
                 <i class="fa fa-clock-o fa-3x"></i>
-                  <h3>SIEMPRE DISPONIBLE</h3>
+                  <h4>SIEMPRE DISPONIBLE</h4>
                   <p>Día o noche, llueva o truene, los chatbots atienden 24/7.</p>
               </div>
               <div class="works-step clearfix">
                 <i class="fa fa-rocket fa-3x"></i>
-                  <h3>ESCALABLE</h3>
+                  <h4>ESCALABLE</h4>
                   <p>Cientos de clientes o millones, los chatbots escalan con tu negocio.</p>
               </div>
             </div>
@@ -67,15 +67,15 @@
                 <img src="resources/img/app-iPhone.png" alt="Nuestro app en iPhone" class="app-screen js--wp-2">
             </div>
 
-            <div class="col-xs-10 col-sm-3 col-lg-2 steps-box steps-box-bis">
+            <div class="col-xs-10 col-sm-4 col-lg-3 steps-box steps-box-bis">
                 <div class="works-step clearfix">
                   <i class="fa fa-tachometer fa-3x"></i>
-                    <h3>INMEDIATO</h3>
+                    <h4>INMEDIATO</h4>
                     <p>Las expectativas del cliente son cada vez más altas, no hagas esperar a los tuyos.</p>
                 </div>
                 <div class="works-step clearfix">
                   <i class="fa fa-commenting fa-3x"></i>
-                    <h3>PERSONALIZADO</h3>
+                    <h4>PERSONALIZADO</h4>
                     <p>Los chatbots responden de manera personalizada y específica a cada cliente.</p>
                 </div>
             </div>

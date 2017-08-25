@@ -394,9 +394,9 @@ header {
     margin-top: 30px;
 }
 
-.steps-box-bis{
+/*.steps-box-bis{
     margin-top: 54px;
-}
+}*/
 
 .steps-box:first-child {
     text-align: right;
@@ -418,6 +418,10 @@ header {
 
 .works-step {
     margin-bottom: 50px;
+}
+
+.works-step p{
+  font-size: 16px;
 }
 
 /* ----------------------------------------------- */
