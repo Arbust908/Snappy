@@ -31,15 +31,22 @@
 
                    <div class="row">
                        <div class="col-xs-12 col-sm-6">
-                           <label for="email">Contraseña</label>
+                           <label for="pass">Contraseña</label>
                            <input type="password" name="pass" id="pass" placeholder="Tu Contraseña" required>
                        </div>
 
                        <div class="col-xs-12 col-sm-6">
-                           <label for="email">Verificacion Contraseña</label>
+                           <label for="pass-check">Verificacion Contraseña</label>
                            <input type="password" name="pass-check" id="pass-check" placeholder="Verifica tu Contraseña" required>
                        </div>
 
+                   </div>
+
+                   <div class="row" style="display:none;">
+                       <div class="col-xs-12 col-sm-6">
+                           <label for="plan">Contraseña</label>
+                           <input type="text" name="plan" id="text" placeholder="Tu Plan" required>
+                       </div>
                    </div>
 
                    <div class="row center-xs middle-xs end-sm">
@@ -63,6 +70,9 @@
     require_once('scripts.html');
    ?>
 
+ </div>
+ <div class="buffer">
+   --
  </div>
 </body>
 

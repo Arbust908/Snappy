@@ -12,7 +12,7 @@
       <div class="row middle-xs">
         <div class="hero-text-box col-xs">
             <h1>Potencia tu tienda online con Inteligencia Artificial</h1>
-            <p>Brinda atención personalizada las 24 hs del día e incrementa tus ventas a través del primer <br>
+            <p>Brinda atención personalizada las 24 hs e incrementa tus ventas a través del primer <br>
             y único chatbot pre-entrenado para tiendas online.</p>
             <a class="btn btn-full btn-big" href="planes.php">Probar Gratis</a>
         </div>
@@ -54,12 +54,12 @@
               <div class="works-step clearfix">
                 <i class="fa fa-clock-o fa-3x"></i>
                   <h4>SIEMPRE DISPONIBLE</h4>
-                  <p>Día o noche, llueva o truene, los chatbots atienden 24/7.</p>
+                  <p>Día y noche, sábado o domingo , Tu chatbot atienden 24/7.</p>
               </div>
               <div class="works-step clearfix">
                 <i class="fa fa-rocket fa-3x"></i>
                   <h4>ESCALABLE</h4>
-                  <p>Cientos de clientes o millones, los chatbots escalan con tu negocio.</p>
+                  <p>Cientos o miles de clientes, tu chatbot escala con tu negocio.</p>
               </div>
             </div>
 
@@ -71,12 +71,12 @@
                 <div class="works-step clearfix">
                   <i class="fa fa-tachometer fa-3x"></i>
                     <h4>INMEDIATO</h4>
-                    <p>Las expectativas del cliente son cada vez más altas, no hagas esperar a los tuyos.</p>
+                    <p>Atiende a tus clientes de manera inmediata, ellos no quieren esperar.</p>
                 </div>
                 <div class="works-step clearfix">
                   <i class="fa fa-commenting fa-3x"></i>
                     <h4>PERSONALIZADO</h4>
-                    <p>Los chatbots responden de manera personalizada y específica a cada cliente.</p>
+                    <p>Responde de manera personalizada a cada uno de tus clientes con el tono de tu marca.</p>
                 </div>
             </div>
 
@@ -107,7 +107,7 @@
     <section class="section-commerce">
         <div class="row middle-xs center-xs">
             <div class="col-xs-10 col-sm-6">
-                <h3>PANEL DE ESTADÍSTICAS</h3>
+                <h2>PANEL DE ESTADÍSTICAS</h2>
                 <ul class="estadisticas">
                   <li><i class="fa fa-angle-right"></i>Valiosos insights sobre tu tienda online</li>
                   <li><i class="fa fa-angle-right"></i>Tópicos y conversaciones más frecuentes</li>

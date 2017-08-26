@@ -136,6 +136,13 @@
     }
 
 
+    .section-extras p{
+      font-size: 1.5em;
+    }
+
+    .buffer{
+      display: none;
+    }
 
 }
 
