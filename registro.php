@@ -1,3 +1,22 @@
+<?php
+$errors = '';
+
+$mimail = "hola@snappybots.com";
+$mail = $_POST["email"];
+$nombre = $_POST["name"];
+$plan = $_POST["plan"];
+
+if ($_POST && empty($errors)) {
+  $to = $mimail;
+  $subject = "Quiero el plan ".$plan;
+  $txt = "Hello soy ".$nombre.", Mi mail es ".$mail." y quiero el Plan ".$plan." para mi E-Commerse.";
+  $headers = "From: ".$mail;
+
+  mail($to,$subject,$txt,$headers);
+  header('Location: enviado.php');
+}
+
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -15,7 +34,7 @@
                <h2>Registrate</h2>
            </div>
            <div class="row center-xs middle-xs">
-               <form method="post" action="#" class="contact-form col-xs-10 col-sm-8 col-md-6">
+               <form method="post" action="registro.php" class="contact-form col-xs-10 col-sm-8 col-md-6">
                    <div class="row">
                        <div class="col-xs-12 col-sm-6">
                            <label for="name">Nombre</label>
@@ -27,6 +46,13 @@
                            <input type="email" name="email" id="email" placeholder="Tu E-mail" required>
                        </div>
 
+                   </div>
+
+                   <div class="row xs-center xs-middle">
+                       <div class="col-xs-12 col-sm-6">
+                           <label for="plan">Tu Plan</label>
+                           <input type="text" name="plan" id="plan" placeholder="Pro" required>
+                       </div>
                    </div>
 
                    <div class="row">
