@@ -1,12 +1,14 @@
 <?php
 $errors = '';
+if(isset($_POST["name"])){
+  $mimail = "arbust@gmail.com";
+  $mail = $_POST["email"];
+  $nombre = $_POST["name"];
+  $plan = $_POST["plan"];
+}
 
-$mimail = "hola@snappybots.com";
-$mail = $_POST["email"];
-$nombre = $_POST["name"];
-$plan = $_POST["plan"];
 
-if ($_POST && empty($errors)) {
+if ($_POST) {
   $to = $mimail;
   $subject = "Quiero el plan ".$plan;
   $txt = "Hello soy ".$nombre.", Mi mail es ".$mail." y quiero el Plan ".$plan." para mi E-Commerse.";
@@ -48,7 +50,7 @@ if ($_POST && empty($errors)) {
 
                    </div>
 
-                   <div class="row xs-center xs-middle">
+                   <div class="row center-xs middle-xs">
                        <div class="col-xs-12 col-sm-6">
                            <label for="plan">Tu Plan</label>
                            <input type="text" name="plan" id="plan" placeholder="Pro" required>
