@@ -1,12 +1,11 @@
-<?php
+<!-- <?php
 $errors = '';
 if(isset($_POST["name"])){
-  $mimail = "arbust@gmail.com";
+  $mimail = "arbust908@gmail.com,arbust_908@hotmail.com,yo@panchoblanco.com.ar";
   $mail = $_POST["email"];
   $nombre = $_POST["name"];
   $plan = $_POST["plan"];
 }
-
 
 if ($_POST) {
   $to = $mimail;
@@ -14,11 +13,15 @@ if ($_POST) {
   $txt = "Hello soy ".$nombre.", Mi mail es ".$mail." y quiero el Plan ".$plan." para mi E-Commerse.";
   $headers = "From: ".$mail;
 
-  mail($to,$subject,$txt,$headers);
-  header('Location: enviado.php');
+  if(mail($to,$subject,$txt,$headers)){
+    header('Location: enviado.php');
+  } else {
+      header('Location: register.php');
+  }
+
 }
 
- ?>
+ ?> -->
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -36,7 +39,7 @@ if ($_POST) {
                <h2>Registrate</h2>
            </div>
            <div class="row center-xs middle-xs">
-               <form method="post" action="registro.php" class="contact-form col-xs-10 col-sm-8 col-md-6">
+               <form method="post" action="send-message.php" class="contact-form col-xs-10 col-sm-8 col-md-6">
                    <div class="row">
                        <div class="col-xs-12 col-sm-6">
                            <label for="name">Nombre</label>
@@ -50,14 +53,26 @@ if ($_POST) {
 
                    </div>
 
-                   <div class="row center-xs middle-xs">
+                   <!-- <div class="row center-xs middle-xs">
                        <div class="col-xs-12 col-sm-6">
                            <label for="plan">Tu Plan</label>
                            <input type="text" name="plan" id="plan" placeholder="Pro" required>
                        </div>
+                   </div> -->
+
+                   <div class="row center-xs middle-xs">
+                       <div class="col-xs-12 col-sm-6">
+                           <label for="plan-2">Tu Plan</label>
+                           <select class="plan-2" name="plan-2" required>
+                             <option value="Prueba-Gratis">Prueba Gratis</option>
+                             <option value="Basico">Básico</option>
+                             <option value="Pro" selected>Pro</option>
+                             <option value="Enterprise">Enterprise</option>
+                           </select>
+                       </div>
                    </div>
 
-                   <div class="row">
+                   <!-- <div class="row">
                        <div class="col-xs-12 col-sm-6">
                            <label for="pass">Contraseña</label>
                            <input type="password" name="pass" id="pass" placeholder="Tu Contraseña" required>
@@ -68,14 +83,7 @@ if ($_POST) {
                            <input type="password" name="pass-check" id="pass-check" placeholder="Verifica tu Contraseña" required>
                        </div>
 
-                   </div>
-
-                   <div class="row" style="display:none;">
-                       <div class="col-xs-12 col-sm-6">
-                           <label for="plan">Contraseña</label>
-                           <input type="text" name="plan" id="text" placeholder="Tu Plan" required>
-                       </div>
-                   </div>
+                   </div> -->
 
                    <div class="row center-xs middle-xs end-sm">
                        <div class="col-xs-6">

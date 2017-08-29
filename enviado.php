@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -10,25 +11,27 @@
         require_once('nav.html');
        ?>
 
-       <section class="section-form">
+       <section class="section-form ">
 
-           <div class="row center-xs middle-xs">
+           <div class="row center-xs middle-xs ">
                <h2>Exito!</h2>
            </div>
-           <div class="row center-xs middle-xs">
+          <div class="contact-form">
 
-             <div class="col-xs-12 col-sm-6">
-                 <p>Ya estamos al tanto de que queres sumar un SnappyBot a tu comercio</p>
-             </div>
+            <div class="row center-xs middle-xs ">
+              <div class="col-xs-12 col-sm-6">
+                  <p>Ya estamos al tanto de que queres sumar un SnappyBot a tu comercio</p>
+              </div>
+            </div>
 
-           </div>
-           <div class="row center-xs middle-xs">
+            <div class="row center-xs middle-xs">
+              <div class="col-xs-12 col-sm-6">
+                  <a href="index.php" class="btn btn-full">Volver al Inicio</a>
+              </div>
+            </div>
 
-             <div class="col-xs-12 col-sm-6">
-                 <a href="index.php">Volver al Inicio</a>
-             </div>
+          </div>
 
-           </div>
 
        </section>
 
